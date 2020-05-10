@@ -1,0 +1,114 @@
+Recommended System Requirements for Debian 10:
+
+   * 2 GB RAM
+   * 2 GHz Dual Core Processor
+   * 10 GB Free Hard disk space
+   * Bootable Installation Media (USB/ DVD)
+   * Internet connectivity (Optional)
+
+
+Debian installation:
+
+Step:1)
+Download Debian 10 ISO file
+
+Download the Debian 10 ISO file from its official portal,
+
+https://www.debian.org/releases/buster/debian-installer/
+
+Once the ISO file is downloaded, burn it either into USB or DVD and make it bootable.
+
+Step:2)
+Boot Your System with Installation Bootable Media (USB / DVD)
+
+Reboot your system in which you will be installing Debian 10 and go to bios settings 
+and set the boot medium as USB or DVD.  Once the system is booted with installation bootable media.
+
+
+Step:3)
+Choose Your preferred Language, Location and Keyboard Layout
+
+In this step you will be asked to choose your preferred language
+
+Click on Continue
+
+Select your preferred location, based on location, time zone will be automatically set for your system.
+
+Now Choose your keyboard layout that suits to your installation
+
+Click on Continue to proceed further
+
+
+Step:4)
+Set Host name and Domain Name for Debian 10 System
+
+Set the hostname that suits to your environment and then click on Continue
+
+Specify the domain name that suits to environment and installation and then click on Continue
+
+
+Step:5)
+Specify the root user’s password
+
+Specify the root password  and then click on Continue
+
+
+Step:6)
+Create Local User and its password
+
+In this step you will be prompted to specify local user details like full name, user name and its password
+Click on Continue
+
+Step:7)
+Choose Hard Disk Partitioning Scheme for Debian 10
+
+In this step, select partitioning scheme for Debian 10. Partitioning scheme is of two types:
+
+    Guided Partitioning (Installer will automatically create required partitions)
+    Manual Partitioning (As name suggests using this we can create manual partitions scheme)
+	
+In this guide we will use guided partitions with LVM 	
+
+Click on Continue to proceed further
+
+In the next screen, you will be asked to choose partitions, if are a new Linux user then choose the first option
+and in case you want a separate home partition then choose second option and else third option, which will create a separate partition for /home, /var and /tmp
+
+In my case I am going to create separate partition for /home, /var and /tmp by choosing the third option.
+
+In the next screen select “yes” to write changes to disk and Configure LVM and then click on Continue
+
+Next, partition table will be displayed, cross verify the partitions size, file system type and mount point.
+Click on Continue to proceed further
+
+In the next screen, choose “yes” to write changes to disk
+Click on Continue to proceed with installation
+
+Step:7)
+Debian 10 Installation Started
+
+In this step, Installation of Debian 10 has been started and is in progress
+
+During the installation, installer will prompt you to scan CD/DVD for configuring package manager, choose No and then click on Continue
+
+In the next screen choose “yes” if you want to configure Package Manager based on Network but for this to work, make sure your system is connected to Internet, else Choose No
+
+Click on continue to configure package manager based on your location, In next couple of screens you will be prompted to choose location and Debian package repository URL,
+then you will get below screen
+
+Choose “No” to skip package survey step and then click on Continue
+
+In the next window, you will be prompted to choose Desktop environment and other packages, in my case I am selecting Gnome Desktop, SSH Server and Standard System utilities
+
+Click on Continue to proceed with Installation,
+
+Choose the option “yes” to install Grub Boot Loader
+
+Click on Continue to proceed further, then in the next window choose the disk (/dev/sda) on which bootloader will be installed
+
+Click on Continue to proceed with installation, Once the installation is completed then installer will prompt us to reboot the system
+
+Click on Continue to reboot your system and don’t forget to change boot medium from Bios settings so that system boots up with hard disk on which we have installed Debian 10 OS
+
+Step:8)
+Boot your newly installed system with Debian 10
